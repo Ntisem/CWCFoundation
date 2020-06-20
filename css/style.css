@@ -10336,6 +10336,11 @@ header .cwc-navbar-brand .cwc-logo span {
     position: relative;
 }
 
+.textme {
+    color: #ffffff;
+    /* font-weight: 100; */
+}
+
 .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 50px;
     color: #fff;
@@ -10347,11 +10352,72 @@ header .cwc-navbar-brand .cwc-logo span {
     position: relative;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text .position {
+@media (max-width:417px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 30px;
+        margin-top: 300px;
+    }
+    header .cwc-navbar-brand .cwc-logo {
+        font-size: 20px;
+    }
+    .textme {
+        color: #f62a66;
+        font-weight: 700;
+    }
+}
+
+@media (min-width:418px) and (max-width:600px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 40px;
+        margin-top: 330px;
+    }
+    header .cwc-navbar-brand .cwc-logo {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:601px) and (max-width:805px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 45px;
+        margin-top: 330px;
+    }
+    header .cwc-navbar-brand .cwc-logo {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:806px) and (max-width:931px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 46px;
+        margin-top: 330px;
+    }
+    header .cwc-navbar-brand .cwc-logo {
+        font-size: 23px;
+    }
+}
+
+@media (min-width:932px) and (max-width:1640px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        /* font-size: 46px; */
+        margin-top: 330px;
+    }
+}
+
+
+/* .owl-carousel.home-slider .slider-item .slider-text .position {
     font-size: 20px;
     text-transform: uppercase;
     color: #f62a66;
     font-weight: 300;
+    display: none;
+} */
+
+.owl-carousel.home-slider .slider-item .slider-text .position2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f62a66;
+    font-weight: 300;
+    display: none;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text p {
